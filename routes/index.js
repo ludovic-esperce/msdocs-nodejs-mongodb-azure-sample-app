@@ -15,7 +15,7 @@ router.get('/', function(req, res, next) {
     })
     .catch((err) => {
       console.log(err);
-      res.send('Sorry! Something went wrong.');
+      res.send('Damn it! Something went wrong.');
     });
 });
 
